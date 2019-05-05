@@ -35,7 +35,7 @@ $(document).scroll(function() {
 
   if (scroll > topArticle){
 
-  	$("header").css("opacity",'1') 
+  	$("header, .menu").css("opacity",'1') 
   
   } else{
   	$("header").css("opacity",'0') 
@@ -68,4 +68,27 @@ $(document).scroll(function() {
  
 });
 
+$( document ).ready(function() {
 
+  $( ".hamburger" ).click(function() {
+    $( ".menu" ).slideToggle( "slow", function() {
+      $( ".hamburger" ).hide();
+      $( ".cross" ).show();
+    });
+  });
+
+  $( ".cross" ).click(function() {
+    $( ".menu" ).slideToggle( "slow", function() {
+      $( ".cross" ).hide();
+      $( ".hamburger" ).show();
+    });
+  });
+
+  $( ".menu ul" ).click(function() {
+    $( ".menu" ).slideToggle( "slow", function() {
+      $( ".cross" ).hide();
+      $( ".hamburger" ).show();
+    });
+  });
+
+});
