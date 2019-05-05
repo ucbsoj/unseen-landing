@@ -4,6 +4,11 @@ require("./lib/social"); // Twitter intent JS
 
 
 var imgReveal = $('#top-quote').offset().top;
+var topArticle = $('#text').offset().top-250;
+var topImages = $('#first').offset().top-400;
+var secondDelay = $('#second').offset().top-400;
+var thirdDelay = $('#third').offset().top-400;
+var fourthDelay = $('#fourth').offset().top-400;
 
 
 
@@ -28,6 +33,39 @@ $(document).scroll(function() {
   
   } 
 
+  if (scroll > topArticle){
 
+  	$("header").css("opacity",'1') 
+  
+  } else{
+  	$("header").css("opacity",'0') 
+  }
+
+  if(scroll > topImages){
+  	$( ".first-delay img" ).css('opacity','1');
+  }else{
+  	$( ".first-delay img" ).css('opacity','0');
+  }
+
+  if(scroll > secondDelay){
+    $( ".second-delay img" ).css('opacity','1');
+  }else{
+    $( ".second-delay img" ).css('opacity','0');
+  }
+
+  if(scroll > thirdDelay){
+    $( ".third-delay img" ).css('opacity','1');
+  }else{
+    $( ".third-delay img" ).css('opacity','0');
+  }
+
+  if(scroll > fourthDelay){
+    $( ".fourth-delay img" ).css('opacity','1');
+  }else{
+    $( ".fourth-delay img" ).css('opacity','0');
+  }
+
+ 
 });
+
 
