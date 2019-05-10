@@ -1,0 +1,100 @@
+.about{
+
+	header{
+		opacity: 1;
+	}
+}
+
+#about{
+	background: #fff;
+	padding-top:4em;
+	padding-bottom:3em;
+	text-align: center;
+
+	h1{
+		font-family: @upstater;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 3em;
+		border-bottom: 3px solid red;	
+		display: inline-block;
+		margin-bottom: 15px;
+		line-height: 1;
+	}
+
+	.text{
+		font-family: @lato;
+		font-weight: 800;
+		max-width: 780px;
+		padding:0 15px;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+}
+
+#profiles{
+	.display-flex;
+	padding:1em 0 3em;
+	background: #fff;
+	.flex-wrap(wrap);
+	.justify-content(center);
+	margin:0 auto;
+}
+
+.profile{
+	.flex(0 0 20%);
+	padding:15px;
+	margin:1em;
+
+	@media @tablet{
+		.flex(0 0 27%);
+	}
+
+	@media @mobile{
+		.flex(0 0 47%);
+		margin:20px 0;
+		padding:10px;
+	}
+}
+
+.profile-info{
+	
+
+	.profile-name{
+		font-weight:600;
+		font-family:@lato;
+		line-height: 1.2;
+		margin-bottom:5px;
+
+		@media @mobile{
+			font-size: 16px;
+		}
+	}
+
+	.profile-bio{
+		font-size: 14px;
+		line-height: 1.4;
+		margin-bottom: 10px;
+
+		@media @mobile{
+			font-size: 12px;
+		}
+	}
+	
+	.profile-project{
+		font-size: 13px;
+		font-family:@lato;
+	}
+	.profile-twitter{
+		font-size: 13px;
+		font-family:@lato;
+	}
+}
+
+.profes{
+	margin-top: 2em;
+  font-family: @lato;
+  font-size: 18px;
+  padding: 0 15px;
+}

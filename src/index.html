@@ -190,7 +190,6 @@
           <video autoplay loop muted playsinline>
             <source src="./assets/unevenground.mp4" type="video/mp4">
           </video>
-          <blockquote>"A quote from this person, maybe."<cite>- Source Name</cite></blockquote>
         </div>
         <div class="placeholder">
           <div class="project-info">
@@ -208,7 +207,6 @@
       <div class="half-wrapper right">
         <div class="half-img">
           <img src="./assets/pennies-per-hour.jpg">
-          <blockquote>"A quote from this person, maybe."<cite>- Source Name</cite></blockquote>
         </div>
         <div class="placeholder">
           <div class="project-info">
@@ -226,12 +224,11 @@
       <div class="half-wrapper">
         <div class="half-img">
            <img src="./assets/newpath.jpg">
-          <blockquote>"A quote from this person, maybe."<cite>- Source Name</cite></blockquote>
         </div>
         <div class="placeholder">
           <div class="project-info">
             <h2>New Path</h2>
-            <div class="byline">By Saemmool Lee & Serena Deng</div>
+            <div class="byline">By Saemmool Lee & Yingshan Deng</div>
             <div class="abstract">More than 600,000 inmates are released from prison every year, 35,000 in California. Most are seeking a regular job that can keep a roof over their head - a challenge that’s not easy to overcome.</div>
           </div>
           <div class="launch"><button>Launch Project</button></div>
@@ -250,7 +247,7 @@
         <div class="placeholder">
           <div class="project-info">
             <h2>Smoke and Mirrors</h2>
-            <div class="byline">By Anne Wernikoff and Simon</div>
+            <div class="byline">By Anne Wernikoff and Simon Campbell</div>
             <div class="abstract">Cannabis legalization in California is a mess. Tax revenues are lower than expected, the illegal market is thriving and workers on the Central Coast are weighing the benefits and fears of working in a newly permitted industry.</div>
           </div>
           <div class="launch"><button>Launch Project</button></div>
@@ -267,7 +264,7 @@
         <div class="placeholder">
           <div class="project-info">
             <h2>Stolen</h2>
-            <div class="byline">By Josh & Sarah</div>
+            <div class="byline">By Josh Slowiczek & Sarah El Safty</div>
             <div class="abstract">In California, wage theft is underreported, underenforced, and costs workers billions of dollars every year. But, you’re more likely to be prosecuted for stealing a sandwich.</div>
           </div>
           <div class="launch"><button>Launch Project</button></div>
@@ -322,7 +319,7 @@
         <div class="placeholder">
           <div class="project-info">
             <h2>Dirty Business</h2>
-            <div class="byline">By Francesca Fenzi & Todd Chen</div>
+            <div class="byline">By Francesca Fenzi & Yutao Chen</div>
             <div class="abstract">Workers in California’s waste industry labor far beyond our shores. Plastic recyclers in Minh Khai, Vietnam wrestle with the blessings and curses of an empire built on our trash.</div>
           </div>
           <div class="launch"><button>Launch Project</button></div>
@@ -338,7 +335,7 @@
 
 
   <script src="app.js" async></script>  
-	<%= t.include("partials/_footer.html") %>
+	<%= t.include("partials/_footer.html", json.page) %>
 	<%= t.include("partials/_analytics.html", grunt.data.json) %>
 
 </body>
