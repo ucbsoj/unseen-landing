@@ -1,0 +1,3 @@
+[submodule "src/new-path"]
+	path = src/new-path
+	url = git@github.com:ucbsoj/unseen-new-path.git
