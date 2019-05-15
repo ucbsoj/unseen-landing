@@ -1,3 +1,24 @@
 [submodule "src/new-path"]
 	path = src/new-path
 	url = git@github.com:ucbsoj/unseen-new-path.git
+[submodule "src/uneven-ground"]
+	path = src/uneven-ground
+	url = git@github.com:ucbsoj/unseen-uneven-ground.git
+[submodule "src/dirty-business"]
+	path = src/dirty-business
+	url = git@github.com:ucbsoj/unseen-dirty-business.git
+[submodule "src/on-the-line"]
+	path = src/on-the-line
+	url = git@github.com:ucbsoj/unseen-on-the-line.git
+[submodule "src/pennies-per-hour"]
+	path = src/pennies-per-hour
+	url = git@github.com:ucbsoj/unseen-pennies-per-hour.git
+[submodule "src/second-class"]
+	path = src/second-class
+	url = git@github.com:ucbsoj/unseen-second-class.git
+[submodule "src/stolen"]
+	path = src/stolen
+	url = git@github.com:ucbsoj/unseen-stolen.git
+[submodule "src/smoke-and-mirrors"]
+	path = src/smoke-and-mirrors
+	url = git@github.com:ucbsoj/unseen-smoke-mirrors.git
