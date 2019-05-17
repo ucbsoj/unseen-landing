@@ -461,6 +461,7 @@ iframe {
 .toplink {
   font-family: "Source Sans Pro Bold", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 1em;
+  padding-top: 80px;
 }
 @media (max-width: 480px) {
   .toplink a {
