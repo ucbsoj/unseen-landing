@@ -444,13 +444,9 @@ iframe {
   /* Opera < 12.1 */
   animation: fadein 5s;
 }
-#topper .title video {
+#topper .title img {
   width: 100%;
-}
-@media (max-width: 480px) {
-  #topper .title video {
-    width: 150vh;
-  }
+  max-width: 600px;
 }
 #topper h1 {
   font-size: 5em;
