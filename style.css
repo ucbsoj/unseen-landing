@@ -394,6 +394,11 @@ iframe {
   color: #fff;
   position: relative;
 }
+#topper .credit {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+}
 #topper .bg-img {
   filter: blur(10px);
   -webkit-filter: blur(10px);
@@ -468,6 +473,12 @@ iframe {
   text-shadow: 1px 1px 1px #333;
   margin: 0 auto;
   padding: 1rem;
+}
+@media (max-width: 480px) {
+  .spacer p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
 .spacer p:not(:last-of-type) {
   margin-bottom: 60vh;
@@ -585,6 +596,14 @@ article p {
   font-family: "Source Sans Pro", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   display: block;
+}
+#fourth {
+  margin-bottom: 20vh;
+}
+@media (max-width: 480px) {
+  #fourth {
+    margin-bottom: 10vh;
+  }
 }
 .project-info h2 {
   margin: 0;
@@ -875,11 +894,10 @@ blockquote cite {
 }
 #about .text {
   font-family: "Lato", sans-serif;
-  font-weight: 800;
-  max-width: 780px;
+  max-width: 850px;
   padding: 0 15px;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 21px;
 }
 #profiles {
   display: -webkit-flex;
