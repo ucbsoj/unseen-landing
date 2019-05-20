@@ -86,6 +86,12 @@ iframe{
 	color:@white;
 	position: relative;
 
+	.credit{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;	
+	}
+
 	.bg-img{
 		filter: blur(10px);
 	  -webkit-filter: blur(10px);
@@ -166,6 +172,11 @@ iframe{
   	text-shadow: 1px 1px 1px #333;
   	margin: 0 auto;
   	padding: 1rem;
+
+  	@media @mobile{
+  		font-size: 18px;
+  		line-height: 1.2;
+  	}
 	}
 	
 	p:not(:last-of-type) {

@@ -1,30 +1,20 @@
 {
-  "s3": {
-    "stage": {
-      "bucket": "unseen-staging",
-      "path": "test"
-    },
-    "live": {
-      "bucket": "unseen-live",
-      "path": ""
-    }
-  },
-
+  
   "production": false,
   "year":"2019",
-  "title": "",
-  "description": "",
-  "seo_title": "",
+  "title": "Unseen: Working In The Shadow of the Golden State",
+  "description": "A multimedia project produced by 2018-2019 second-year students in the New Media Program at UC Berkeley's Graduate School of Journalism.",
+  "seo_title": "Unseen: Working In The Shadow of the Golden State",
   "author":"",
-  "date":"2019-04-30",
+  "date":"2019-05-20",
   "time":"06:00:00Z",
-  "url": "https://unseen.com",
+  "url": "https://unseen.report",
   "slug": "/",
   "twitter_text":"",
   "hashtag":"",
   "image": "assets/social.jpg",
   "sheets": ["1WaeOwg0HcXV9GG5EPn5TWAST1j51QBUZYETVpfii68w"],
   "docsID": ["1DMm1taIeJqDr0TPc3W1BTZ5JAQy-8vFHQ1mpCIILwb0"],
-  "ga_code": " ",
-  "favicon_icon": ""
+  "ga_code": "UA-140413282-1",
+  "favicon_icon": "https://www.berkeley.edu/favicon.ico"
 }
