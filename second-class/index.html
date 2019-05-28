@@ -468,7 +468,20 @@
   <script src="app.js" async></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
   <script>
-    var s = skrollr.init({forceHeight:false});
+    
+    $(function () {
+  // initialize skrollr if the window width is large enough
+  if ($(window).width() > 767) {
+    skrollr.init({forceHeight:false});
+  }
+
+  // disable skrollr if the window is resized below 768px wide
+  $(window).on('resize', function () {
+    if ($(window).width() <= 767) {
+      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+    }
+  });
+});
   </script>
    <div id="bottom-nav">
         <hr class="bottom-hr" />
