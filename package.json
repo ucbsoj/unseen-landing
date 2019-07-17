@@ -8,7 +8,9 @@
     "url": "https://github.com/ucbsoj/unseen-landing.git"
   },
   "scripts":{
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lucio" : "pwd",
+    "pull" : "cd src/dirty-business && git checkout master && grunt static && npm run lucio"
   },
   "dependencies": {
     "archieml": "^0.3.1",
