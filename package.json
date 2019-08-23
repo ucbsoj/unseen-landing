@@ -9,8 +9,14 @@
   },
   "scripts":{
     "deploy": "gh-pages -d build",
-    "lucio" : "pwd",
-    "pull" : "cd src/dirty-business && git checkout master && grunt static && npm run lucio"
+    "pull-dirtybiz" : "cd src/dirty-business && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-newpath" : "cd src/new-path && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-ontheline" : "cd src/on-the-line && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-pennies" : "cd src/pennies-per-hour && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-secondclass" : "cd src/second-class && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-smoke" : "cd src/smoke-and-mirrors && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-stolen" : "cd src/stolen && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
+    "pull-uneven" : "cd src/uneven-ground && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build"
   },
   "dependencies": {
     "archieml": "^0.3.1",
