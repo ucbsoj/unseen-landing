@@ -18,7 +18,7 @@
     "pull-stolen"       : "cd src/stolen && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
     "pull-uneven"       : "cd src/uneven-ground && git checkout master && npm i && grunt static && git checkout site && rm -rf node_modules && rm -rf assets && mv build/* ./ && rm -rf build",
     "pull-all"          : "npm run pull-dirtybiz && npm run pull-newpath && npm run pull-ontheline && npm run pull-pennies && npm run pull-secondclass && npm run pull-smoke && npm run pull-stolen && npm run pull-uneven",
-    "pub-all"           : "npm run pull all && npm run publish"
+    "pub-all"           : "npm run pull-all && npm run publish"
   },
   "dependencies": {
     "archieml": "^0.3.1",
