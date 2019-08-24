@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Simon Campbell",
+    "project": "Smoke and Mirrors",
+    "image_slug": "simon_campbell",
+    "twitter": "Si_Campbell_",
+    "bio": "Simon is a digital journalist specializing in data and narrative writing."
+  },
+  {
+    "name": "Yutao Chen",
+    "project": "Dirty Business",
+    "image_slug": "yutao_chen",
+    "twitter": "yutao_chen95",
+    "bio": "Yutao is a visual journalist who shoots, edits and codes."
+  },
+  {
+    "name": "Yingshan Deng",
+    "project": "New Path",
+    "image_slug": "yingshan_deng",
+    "twitter": "SereneSerenaD",
+    "bio": "Yingshan is a multimedia reporter focusing on business and science."
+  },
+  {
+    "name": "Sarah El Safty",
+    "project": "Stolen",
+    "image_slug": "sarah_el_safty",
+    "twitter": "SarahSafty",
+    "bio": "Sarah is a multimedia journalist with experience covering business across several markets in the US and the Middle East. "
+  },
+  {
+    "name": "Francesca Fenzi",
+    "project": "Dirty Business",
+    "image_slug": "francesca_fenzi",
+    "twitter": "francesca_fenzi",
+    "bio": "Francesca Fenzi is an audio producer, writer, and visual journalist based in Oakland."
+  },
+  {
+    "name": "Saemmool Lee",
+    "project": "New Path",
+    "image_slug": "saemmool_lee",
+    "twitter": "saemmool",
+    "bio": "Saemmool is a multimedia reporter from South Korea, focusing on business and technology."
+  },
+  {
+    "name": "Cecilia Lei",
+    "project": "Pennies Per Hour",
+    "image_slug": "cecilia_lei",
+    "twitter": "ceelei",
+    "bio": "Cecilia is a multimedia journalist focused on enterprise reporting, with a concentration in criminal justice and immigration."
+  },
+  {
+    "name": "Susie Neilson",
+    "project": "On the Line",
+    "image_slug": "susie_neilson",
+    "twitter": "susieneilson",
+    "bio": "Susie is a science reporter specializing in data, audio and public records."
+  },
+  {
+    "name": "Mallory Newman",
+    "project": "Uneven Ground",
+    "image_slug": "mallory_newman",
+    "twitter": "manewms",
+    "bio": "Mallory is a multimedia reporter focused on video and investigative journalism. "
+  },
+  {
+    "name": "Alex Nieves",
+    "project": "Second Class",
+    "image_slug": "alex_nieves",
+    "twitter": "alexdrnieves",
+    "bio": "Alex is a multimedia journalist focusing on politics and environment reporting."
+  },
+  {
+    "name": "Josh Slowiczek",
+    "project": "Stolen",
+    "image_slug": "josh_slowiczek",
+    "twitter": "JSlowiczek",
+    "bio": "Josh is a Bay Area reporter focusing on multimedia, data and investigative journalism. "
+  },
+  {
+    "name": "Anne Wernikoff",
+    "project": "Smoke and Mirrors",
+    "image_slug": "anne_wernikoff",
+    "twitter": "awernikoff",
+    "bio": "Anne is a multimedia journalist and documentary photographer. Her work focuses on sense of place, family and community."
+  }
+]
