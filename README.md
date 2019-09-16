@@ -9,10 +9,29 @@ In this repo, all the project repos are pulled in as git submodules, that way st
 - The Grunt command line utility (grunt-cli, installed globally)
 
 ## Installing project
-Clone project
+Clone project (with all submodules)
+
+```
+git clone --recurse-submodules -j8 git@github.com:ucbsoj/unseen-landing.git
+```
+
+Alternatively, you can clone the project with empty submodules folders:
+
 ```
 git clone git@github.com:ucbsoj/unseen-landing.git
 ```
+
+but each [submodule folder will be empty](https://git-scm.com/book/en/v2/Git-Tools-Submodules#_cloning_submodules). For each submodule you want to update, you will need to run these three commands (replacing the respective project name after `src`:
+
+```
+cd src/smoke-and-mirrors
+
+git submodule init
+
+git submodule update
+```
+
+
 Install Node Modules
 ```
 npm install
