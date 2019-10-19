@@ -20,6 +20,7 @@ module.exports = function(grunt) {
       shell.cp("-r", "src/dirty-business", "build");
       shell.cp("-r", "src/second-class", "build");
       shell.cp("-r", "src/stolen", "build");
+      shell.cp("-r", "src/CNAME", "build");
     }
   });
 
